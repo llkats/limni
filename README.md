@@ -25,6 +25,9 @@ Should eventually contain the archive of my old tweets (see Darius Kazemi's [Twi
 
 Technology should be as close to plain fundamental web technologies as possible. Static site generation, as little JS as possible. No CSS preprocessor (How will it be to build a site from bottom-up with plain CSS in 2023? What are the best practices and how to keep it organized?). Semantic markup, HTML where possible. Accessibility core to site (alt text for all images, also alt text for ASCII or emoji art posts). No tracking. Responsive, minimal design.
 
+### Random thoughts
+Trying to not use too many new-to-me things, so since 11ty is new, it seems prudent to start off using a templating feature that 11ty uses by default. This appears to be Nunjucks, but WebC looks compelling, so I should check it out after I'm feeling a bit more comfortable with 11ty.
+
 #### Basic post types
 - Small text (tweet-length) with links
 - Long text (with formatting?)
