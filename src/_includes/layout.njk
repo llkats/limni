@@ -8,8 +8,7 @@
   <title>{{ title }}</title>
 </head>
 <body>
-  <header><h1>thoughts of llkats</h1></header> {# TODO: make a partial #}
-  <nav>nav goes here</nav> {# TODO: make a partial #}
+  <header><h1>thoughts of llkats</h1></header>
   <main>
     {% set posts = collections.posts | reverse %}
     {% for post in posts %}
@@ -23,6 +22,6 @@
       no posts yet
     {% endfor %}
   </main>
-  <footer>footer goes here &copy; 2022</footer> {# TODO: make a partial #}
+  <footer>footer goes here &copy; 2022</footer>
 </body>
 </html>
