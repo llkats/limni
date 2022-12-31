@@ -8,6 +8,14 @@
   <title>{{ title }}</title>
 </head>
 <body>
-  {{ content | safe }}
+  <header><h1>thoughts of llkats</h1></header> {# TODO: make a partial #}
+  <nav>nav goes here</nav> {# TODO: make a partial #}
+  <main>
+    {% set posts = collections.posts | reverse %}
+    {% for post in posts %}
+      {% include "post.njk" %}
+    {% endfor %}
+  </main>
+  <footer>footer goes here &copy; 2022</footer> {# TODO: make a partial #}
 </body>
 </html>
