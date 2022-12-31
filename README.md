@@ -59,6 +59,7 @@ Trying to not use too many new-to-me things, so since 11ty is new, it seems prud
 - [Using GitHub as a CMS](https://nuro.dev/blog/using_github_as_a_cms)
 - [Basic custom taxonomies with Eleventy](https://www.webstoemp.com/blog/basic-custom-taxonomies-with-eleventy/)
 - [Using Webmentions in Eleventy](https://mxb.dev/blog/using-webmentions-on-static-sites/)
+- [An In-Depth Tutorial of Webmentions + Eleventy](https://sia.codes/posts/webmentions-eleventy-in-depth/)
 - [Itsiest, Bitsiest Eleventy Tutorial](https://sia.codes/posts/itsiest-bitsiest-eleventy-tutorial/)
 
 ### Frameworks
