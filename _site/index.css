@@ -2,12 +2,16 @@ body {
   font-family: sans-serif;
 }
 
+header, footer {
+  text-align: center;
+}
+
 main {
-  padding: 3em;
+  padding: 2em 3em 3em;
 }
 
 article {
-  border: 1px solid #333;
+  border: 1px solid #ccc;
   margin: 1em 0;
   padding: 2em;
 }
