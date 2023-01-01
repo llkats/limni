@@ -52,15 +52,21 @@ Trying to not use too many new-to-me things, so since 11ty is new, it seems prud
 
 ## Links
 ### Blogs, tutorials, how-tos
+#### Eleventy
 - [Make your own simple, public, searchable Twitter archive](https://tinysubversions.com/twitter-archive/make-your-own/)
 - [11ty: The Good, the Bad, and the... Possum?](https://www.aleksandrhovhannisyan.com/blog/eleventy-the-good-the-bad-and-the-possum/)
 - [Build Eleventy Using Github Actions and Github Pages](https://avinash.com.np/2020/05/18/build-eleventy-using-github-actions-and-github-pages/)
 - [Turn static HTML/CSS into a blog with CMS using the JAMStack](https://www.youtube.com/watch?v=4wD00RT6d-g) (YouTube)
-- [Using GitHub as a CMS](https://nuro.dev/blog/using_github_as_a_cms)
 - [Basic custom taxonomies with Eleventy](https://www.webstoemp.com/blog/basic-custom-taxonomies-with-eleventy/)
 - [Using Webmentions in Eleventy](https://mxb.dev/blog/using-webmentions-on-static-sites/)
 - [An In-Depth Tutorial of Webmentions + Eleventy](https://sia.codes/posts/webmentions-eleventy-in-depth/)
 - [Itsiest, Bitsiest Eleventy Tutorial](https://sia.codes/posts/itsiest-bitsiest-eleventy-tutorial/)
+- [11ty Recipes](https://11ty.recipes/)
+- [Eleventy Walkthrough](https://rphunt.github.io/eleventy-walkthrough/template-files.html#collections)
+- [Learn 11ty from Scratch](https://learneleventyfromscratch.com/) - outdated, still mostly good info and I appreciate the snowball structure of the lessons
+
+#### Other
+- [Using GitHub as a CMS](https://nuro.dev/blog/using_github_as_a_cms)
 
 ### Frameworks
 - [Eleventy](https://www.11ty.dev/)
