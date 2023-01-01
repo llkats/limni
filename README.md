@@ -70,3 +70,6 @@ Trying to not use too many new-to-me things, so since 11ty is new, it seems prud
 - [Neat Starter](https://github.com/surjithctly/neat-starter) - GH starter repo with 11ty and Netlify CMS + JS/CSS frameworks
 - [Eleventy Netlify Boilerplate](https://github.com/danurbanowicz/eleventy-netlify-boilerplate) - GH starter repo, no JS/CSS frameworks
 - [11ty-no-style-please](https://github.com/stopnoanime/11ty-no-style-please) - design 👀
+
+### Etc
+- [Shuttlecraft](https://shuttlecraft.net/) - kind of like what I'm building but with Fediverse (ActivityPub) integration (and meant for other people to spin up their own instances too)
