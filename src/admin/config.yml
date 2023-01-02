@@ -5,6 +5,7 @@ media_folder: "dist/assets/images"
 public_folder: "/assets/images"
 collections:
   - name: "posts"
+    identifier_field: name
     label: "Posts"
     folder: "src/posts"
     create: true
