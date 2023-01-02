@@ -12,5 +12,5 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string", required: true }
-      - { label: "Tags", name: "tags", widget: "list", default: ["posts"] }
+      - { label: "Layout", name: "layout", widget: "select", options: ["blog", "post"], default: "post" }
       - { label: "Content", minimal: true, name: "body", widget: "markdown" }
