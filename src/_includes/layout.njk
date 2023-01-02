@@ -13,11 +13,7 @@
   <main>
     {% set posts = collections.posts | reverse %}
     {% for post in posts %}
-      {% if post.data.tags.includes('post') %}
-        {% include "post.njk" %}
-      {% elif post.data.tags.includes('blog') %}
-        {% include "blog.njk" %}
-      {% endif %}
+      {% include post.data.layout + ".njk" %}
     {% else %}
       no posts yet
     {% endfor %}
