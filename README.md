@@ -64,13 +64,17 @@ Trying to not use too many new-to-me things, so since 11ty is new, it seems prud
 - [11ty Recipes](https://11ty.recipes/)
 - [Eleventy Walkthrough](https://rphunt.github.io/eleventy-walkthrough/template-files.html#collections)
 - [Learn 11ty from Scratch](https://learneleventyfromscratch.com/) - outdated, still mostly good info and I appreciate the snowball structure of the lessons
+- [Eleventy Custom Content Type Collections and Layouts](https://www.joshcanhelp.com/eleventy-custom-content-type-collections/)
 
 #### Other
 - [Using GitHub as a CMS](https://nuro.dev/blog/using_github_as_a_cms)
+- [My Custom CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/)
+- [You Don’t Need A UI Framework](https://www.smashingmagazine.com/2022/05/you-dont-need-ui-framework/)
 
-### Frameworks
+### Tools
 - [Eleventy](https://www.11ty.dev/)
 - [Netlify CMS](https://www.netlifycms.org/)
+- [Nunjucks](https://mozilla.github.io/nunjucks/)
 
 ### Starter Repos
 - [Neat Starter](https://github.com/surjithctly/neat-starter) - GH starter repo with 11ty and Netlify CMS + JS/CSS frameworks
