@@ -13,7 +13,6 @@
   <main>
     {% set posts = collections.posts | reverse %}
     {% for post in posts %}
-      {{post.data.tags | log}}
       {% if post.data.tags.includes('post') %}
         {% include "post.njk" %}
       {% elif post.data.tags.includes('blog') %}
