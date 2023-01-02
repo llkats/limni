@@ -1,6 +1,6 @@
-# Stream
+# Limni
 
-A small river. Personal replacement for Twitter. A central place for me to dump thoughts, photos, shitposts, share other social media posts, and whatever else I want to use it for.
+A lake. Personal replacement for Twitter. A central place for me to dump thoughts, photos, shitposts, share other social media posts, and whatever else I want to use it for.
 
 ## Name ideas
 This is important.
