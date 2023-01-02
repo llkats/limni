@@ -1,6 +1,6 @@
 ---
-layout: layout.njk
-title: oh hi hey
+layout: "layout.njk"
+title: "oh hi hey"
 ---
 
 # look it's markdown
