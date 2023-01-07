@@ -1,4 +1,4 @@
 <article class="post">
-  <time>{{ post.data.page.date }}</time>
+  <time>{{ post.data.page.date | formatPostDate }}</time>
   <p>{{ post.data.content | safe}}</p>
 </article>
