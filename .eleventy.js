@@ -9,7 +9,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter("formatPostDate", (date) =>
     dayjs(date).format('MMMM D, YYYY — h:mm a')
-  );
+  )
 
   return {
     passthroughFileCopy: true,
