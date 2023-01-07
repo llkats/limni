@@ -2,6 +2,26 @@
 
 A lake. Personal replacement for Twitter. A central place for me to dump thoughts, photos, shitposts, share other social media posts, and whatever else I want to use it for.
 
+## Todos
+### External features
+- [ ] Pagination
+- [ ] Permalinks and view for a single article
+- [ ] Single image article type
+- [ ] Multiple image article type
+  - [ ] Image hosting??
+- [ ] "Thread" view of articles (ie, "reply" to articles)
+- [ ] Other post types
+- [ ] Publish RSS feed
+- [ ] Tags? And view for articles by tag(?)
+- [ ] Embed other social media posts
+
+### Internal features
+- [ ] In the article edit view, show specific fields based on post type (ie, only image articles would show an image upload widget)
+
+### Bugs
+- [ ] Remove extra empty `<p>` tags that are generated in `post` article types, it's mucking with the layout spacing
+
+
 ## Name ideas
 This is important.
 
@@ -16,6 +36,7 @@ This is important.
 - Brook
 - Creek
 - Stream
+
 
 ## Brainstorming
 ### Ideas
@@ -49,6 +70,7 @@ Trying to not use too many new-to-me things, so since 11ty is new, it seems prud
 - Upload posts
   - Off the shelf CMS (Netlify CMS, or another headless CMS?) or hand-rolled? I probably don't want to spend time doing this.
 - Publish RSS feed
+
 
 ## Links
 ### Blogs, tutorials, how-tos
