@@ -13,4 +13,4 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string", required: true }
       - { label: "Layout", name: "layout", widget: "select", options: ["blog", "post"], default: "post" }
-      - { label: "Content", minimal: true, name: "body", widget: "markdown" }
+      - { label: "Content", minimal: true, name: "body", widget: "text" }
