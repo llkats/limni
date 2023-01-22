@@ -61,28 +61,14 @@ header, footer {
 }
 
 main {
-  padding: 0 3em 3em;
-}
-
-@media (min-width: 480px) {
-  main {
-    margin: 0 auto;
-    width: 80%;
-  }
-}
-
-@media (min-width: 768px) {
-  main {
-    margin: 0 auto;
-    max-width: 700px;
-    width: 60%;
-  }
+  padding: 0 1em 3em;
 }
 
 article {
   border: 1px solid #ccc;
+  border-radius: 0.25em;
   margin: 1em 0;
-  padding: 2em;
+  padding: 1em;
 }
 
 article h2 {
@@ -107,6 +93,36 @@ article p:last-child {
   font-size: 1.5rem;
 }
 
+.blog {
+  padding: 1em;
+}
+
 .blog-content {
   margin-bottom: 2em;
+}
+
+@media (min-width: 480px) {
+  article {
+    padding: 1em 2em;
+  }
+
+  main {
+    margin: 0 auto;
+    padding: 1em 0;
+    width: 80%;
+  }
+
+  .blog {
+    padding: 2em;
+  }
+}
+
+@media (min-width: 768px) {
+
+  main {
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 0 0 3em;
+    width: 70%;
+  }
 }
