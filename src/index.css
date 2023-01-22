@@ -50,6 +50,10 @@ h6 {
 }
 
 /* Custom styles */
+a {
+  color: hsl(173, 58%, 34%);
+}
+
 body {
   background-color: rgb(42, 157, 143);
   background: linear-gradient(
@@ -63,7 +67,7 @@ body {
 }
 
 header, footer {
-  margin: 2rem 0;
+  padding: 2rem 0;
   text-align: center;
 }
 
