@@ -102,6 +102,10 @@ h1 {
   padding: 0.25em;
 }
 
+time {
+  text-align: right;
+}
+
 .post p {
   font-size: 1.5rem;
 }
