@@ -1,5 +1,7 @@
+{% include "../main.njk" %}
+
 <article class="blog">
   <h2>{{ post.data.title }}</h2>
   <div class="blog-content">{{ post.data.content | safe}}</div>
-  {% include "partials/timestamp.njk" %}
+  {% include "../partials/timestamp.njk" %}
 </article>

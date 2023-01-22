@@ -1,8 +1,8 @@
 const dayjs = require('dayjs')
 
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addLayoutAlias('post', 'post.njk')
-  eleventyConfig.addLayoutAlias('blog', 'blog.njk')
+  eleventyConfig.addLayoutAlias('post', 'postTypes/post.njk')
+  eleventyConfig.addLayoutAlias('blog', 'postTypes/blog.njk')
 
   eleventyConfig.addPassthroughCopy("./src/index.css")
   eleventyConfig.addPassthroughCopy("./src/admin/")
