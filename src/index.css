@@ -50,8 +50,15 @@ h6 {
 }
 
 /* Custom styles */
-
 body {
+  background-color: rgb(42, 157, 143);
+  background: linear-gradient(
+    130deg,
+    rgba(42, 157, 143, 1) 0%,
+    rgba(233, 196, 106, 1) 85%,
+    rgba(244, 162, 97, 1) 100%
+  )
+  fixed;
   font-family: 'Noto Sans', sans-serif;
 }
 
@@ -65,6 +72,7 @@ main {
 }
 
 article {
+  background-color: white;
   border: 1px solid #ccc;
   border-radius: 0.25em;
   margin: 1em 0;
@@ -87,6 +95,11 @@ article p {
 
 article p:last-child {
   padding-bottom: 0;
+}
+
+h1 {
+  background-color: white;
+  padding: 0.25em;
 }
 
 .post p {
@@ -118,7 +131,6 @@ article p:last-child {
 }
 
 @media (min-width: 768px) {
-
   main {
     margin: 0 auto;
     max-width: 700px;
