@@ -25,6 +25,13 @@ A lake. Personal replacement for Twitter. A central place for me to dump thought
 - [ ] Fix post dates on deployed site. Tried changing to `git Last Modified` in a JS data file but that doesn't seem to have helped (or isn't working as intended)
 - [ ] Remove extra empty `<p>` tags that are generated in `post` article types, it's mucking with the layout spacing
 
+## Color palette
+From [coolors.co](https://coolors.co/palette/264653-2a9d8f-e9c46a-f4a261-e76f51)
+- Dark green: `hsl(197, 37%, 24%)` `#264653`
+- Green: `hsl(173, 58%, 39%)` `#2A9D8F`
+- Yellow: `hsl(43, 74%, 66%)` `#E9C46A`
+- Orange: `hsl(27, 87%, 67%)` `#F4A261`
+- Dark orange: `hsl(12, 76%, 61%)` `#E76F51`
 
 ## Name ideas
 This is important.
