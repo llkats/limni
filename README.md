@@ -4,6 +4,7 @@ A lake. Personal replacement for Twitter. A central place for me to dump thought
 
 ## Todos
 ### External features
+- [ ] Host under llkats.com domain
 - [ ] Pagination
 - [ ] Permalinks and view for a single article
 - [ ] Single image article type
@@ -11,14 +12,17 @@ A lake. Personal replacement for Twitter. A central place for me to dump thought
   - [ ] Image hosting??
 - [ ] "Thread" view of articles (ie, "reply" to articles)
 - [ ] Other post types
+  - [ ] What if there were a little module in the left or right (or both) that had lists, like what I'm currently reading or playing, or even had this little todo list? Maybe with a folding mechanism.
 - [ ] Publish RSS feed
 - [ ] Tags? And view for articles by tag(?)
 - [ ] Embed other social media posts
+- [ ] Search
 
 ### Internal features
 - [ ] In the article edit view, show specific fields based on post type (ie, only image articles would show an image upload widget)
 
 ### Bugs
+- [ ] Fix post dates on deployed site. Tried changing to `git Last Modified` in a JS data file but that doesn't seem to have helped (or isn't working as intended)
 - [ ] Remove extra empty `<p>` tags that are generated in `post` article types, it's mucking with the layout spacing
 
 
