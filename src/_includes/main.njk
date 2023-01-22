@@ -4,7 +4,7 @@
   <meta charset='UTF-8' />
   <meta http-equiv='X-UA-Compatible' content='IE=edge' />
   <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-  <link rel='stylesheet' href='index.css' />
+  <link rel='stylesheet' href='/index.css' />
   <title>limni is λίμνι</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,15 +13,10 @@
 
   <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
-<body>
+<body class="{{ 'devMode' if global.env == 'dev' }}">
   <header><h1>thoughts of llkats</h1></header>
   <main>
-    {% set posts = collections.posts | reverse %}
-    {% for post in posts %}
-      {% include post.data.layout + ".njk" %}
-    {% else %}
-      no posts yet
-    {% endfor %}
+    {{ content | safe }}
   </main>
   <footer><p>a work in progress by <a href="https://www.llkats.com">@llkats</a> &copy; 2023</p></footer>
 

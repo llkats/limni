@@ -66,6 +66,15 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
+body.devMode {
+  background: linear-gradient(
+    30deg,
+    rgba(244,162,97,1) 9%,
+    rgba(233,196,106,1) 100%
+  )
+  fixed;
+}
+
 header, footer {
   padding: 2rem 0;
   text-align: center;
