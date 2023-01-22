@@ -16,7 +16,12 @@
 <body class="{{ 'devMode' if global.env == 'dev' }}">
   <header><h1>thoughts of llkats</h1></header>
   <main>
-    {{ content | safe }}
+    {% set posts = collections.posts | reverse %}
+    {% for post in posts %}
+      {% include "postTypes/" + post.data.layout + ".njk" %}
+    {% else %}
+      <p>no posts yet</p>
+    {% endfor %}
   </main>
   <footer><p>a work in progress by <a href="https://www.llkats.com">@llkats</a> &copy; 2023</p></footer>
 
