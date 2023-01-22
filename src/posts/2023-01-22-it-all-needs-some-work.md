@@ -6,4 +6,4 @@ Having a real struggle with getting permalink views to work. When I add addition
 
 I did add a nice background gradient, and the homepage isn't looking half bad. Though I tried to add an env variable and to change the background color on dev or prod, but it's not working correctly and prod has the orangey background intended for dev.
 
-Probably what I get for developing while half-watching the old Lupin the Third series from the beginning ¯\_(ツ)_/¯
+Probably what I get for developing while half-watching the old Lupin the Third series from the beginning ¯\\\_(ツ)\_/¯
