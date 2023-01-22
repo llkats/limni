@@ -1,5 +1,7 @@
 ---
 title: 'bartender: calls me "dear"'
-layout: blog
+layout: post
 ---
+bartender calls me "dear"
+
 me: thanks but I'm 37
