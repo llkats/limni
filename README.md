@@ -22,8 +22,11 @@ A lake. Personal replacement for Twitter. A central place for me to dump thought
 - [ ] In the article edit view, show specific fields based on post type (ie, only image articles would show an image upload widget)
 
 ### Bugs
-- [ ] Fix post dates on deployed site. Tried changing to `git Last Modified` in a JS data file but that doesn't seem to have helped (or isn't working as intended)
 - [ ] Remove extra empty `<p>` tags that are generated in `post` article types, it's mucking with the layout spacing
+- [ ] Change times to Central time zone
+
+#### Fixed bugs
+- [x] Fix post dates on deployed site. Tried changing to `git Last Modified` in a JS data file but that doesn't seem to have helped (or isn't working as intended)
 
 ## Color palette
 From [coolors.co](https://coolors.co/palette/264653-2a9d8f-e9c46a-f4a261-e76f51)
