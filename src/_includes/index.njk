@@ -14,18 +14,16 @@
   <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body class="{{ 'devMode' if global.env == 'dev' }}">
-  <header><h1>thoughts of llkats</h1></header>
+  <header><h1>function literal (v2)</h1></header>
+
   <main>
-    {% set posts = collections.posts | reverse %}
-    {% for post in posts %}
-      {% include "postTypes/" + post.data.layout + ".njk" %}
-    {% else %}
-      <p>no posts yet</p>
-    {% endfor %}
+    {{ content | safe }}
   </main>
+
   <footer><p>a work in progress by <a href="https://www.llkats.com">@llkats</a> &copy; 2023</p></footer>
 
   {# netlify identity #}
+  {% if path === "home" %}
   <script>
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on("init", user => {
@@ -37,5 +35,6 @@
       });
     }
   </script>
+  {% endif %}
 </body>
 </html>
