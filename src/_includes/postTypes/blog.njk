@@ -1,18 +1,31 @@
+{%- from '../partials/timestamp.njk' import timestamp %}
+
 {%- macro blogMarkup(params) %}
 <article class="blog">
   <h2>{{ params.title }}</h2>
   <div class="blog-content">{{ params.content | safe}}</div>
-  {% include "../partials/timestamp.njk" %}
+  {{ timestamp({date: page.date, url: params.url}) }}
 </article>
 {% endmacro %}
 
 {% if not helpers.isHomepage(path) %}
-  {% include "../index.njk" %}
-
+  {%- include "../index.njk" %}
   <main>
-    {{ blogMarkup({title: title, content: content}) | safe }}
+    {{
+      blogMarkup({
+        content: content,
+        title: title,
+        url: "/"
+      }) | safe
+    }}
   </main>
 {% else %}
-  {{ blogMarkup({title: post.data.title, content: post.data.content}) | safe }}
+  {{
+    blogMarkup({
+      content: post.data.content,
+      title: post.data.title,
+      url: post.data.page.url
+    }) | safe
+  }}
 {% endif %}
 

@@ -1,6 +1,6 @@
-{% set date = post.data.page.date %}
-<time datetime="{{ date }}">
-  {{ date | formatPostDate }}
-  {# TODO: comment back in when the permalink view is formatted correctly #}
-  {# <a href={{ post.data.page.url }}>{{ date | formatPostDate }}</a> #}
+{%- macro timestamp(params) -%}
+{{ params.date | log }}
+<time datetime="{{ params.date }}">
+  <a href={{ params.url }}>{{ params.date | formatPostDate }}</a>
 </time>
+{%- endmacro -%}

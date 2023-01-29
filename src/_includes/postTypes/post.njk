@@ -1,16 +1,30 @@
-{%- macro postMarkup(params) %}
+{%- from '../partials/timestamp.njk' import timestamp %}
+
+{%- macro postMarkup(params) -%}
 <article class="post">
   <p>{{ params.content | safe}}</p>
-  {% include "../partials/timestamp.njk" %}
+  {{ timestamp({ date: page.date, url: params.url }) }}
 </article>
-{% endmacro %}
+{%- endmacro -%}
 
 {% if not helpers.isHomepage(path) %}
-  {% include "../index.njk" %}
+  {%- include "../index.njk" %}
 
   <main>
-    {{ postMarkup({title: title, content: content}) | safe }}
+    {{
+      postMarkup({
+        title: title,
+        content: content,
+        url: "/"
+      }) | safe
+    }}
   </main>
 {% else %}
-  {{ postMarkup({title: post.data.title, content: post.data.content}) | safe }}
+  {{
+    postMarkup({
+      content: post.data.content,
+      title: post.data.title,
+      url: post.data.page.url
+    }) | safe
+  }}
 {% endif %}
