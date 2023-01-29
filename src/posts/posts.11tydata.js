@@ -1,6 +1,7 @@
 const data = {
   tags: "posts",
-  date: "Created"
+  date: "Created",
+  path: "posts"
 }
 
 if (process.env.NODE_ENV === "production") {

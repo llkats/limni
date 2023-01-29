@@ -14,13 +14,16 @@
   <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body class="{{ 'devMode' if global.env == 'dev' }}">
-  <header><h1>function literal (v2)</h1></header>
+  <header><h1>llkats's function literal <small>(v2)</small></h1></header>
 
-  <main>
-    {{ content | safe }}
-  </main>
+  {% set isHomepage = helpers.isHomepage(path) %}
+  {% if isHomepage %}
+    <main>
+      {{ content | safe }}
+    </main>
+    <footer><p>a work in progress by <a href="https://www.llkats.com">@llkats</a> &copy; 2023</p></footer>
+  {% endif %}
 
-  <footer><p>a work in progress by <a href="https://www.llkats.com">@llkats</a> &copy; 2023</p></footer>
 
   {# netlify identity #}
   {% if path === "home" %}

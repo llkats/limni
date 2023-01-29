@@ -1,3 +1,4 @@
 ---
-layout: "index.njk"
+layout: "home"
+path: "home"
 ---

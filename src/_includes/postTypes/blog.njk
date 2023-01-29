@@ -1,7 +1,18 @@
-{# {% include "./permalinkView.njk" %} #}
-
+{%- macro blogMarkup(params) %}
 <article class="blog">
-  <h2>{{ post.data.title }}</h2>
-  <div class="blog-content">{{ post.data.content | safe}}</div>
+  <h2>{{ params.title }}</h2>
+  <div class="blog-content">{{ params.content | safe}}</div>
   {% include "../partials/timestamp.njk" %}
 </article>
+{% endmacro %}
+
+{% if not helpers.isHomepage(path) %}
+  {% include "../index.njk" %}
+
+  <main>
+    {{ blogMarkup({title: title, content: content}) | safe }}
+  </main>
+{% else %}
+  {{ blogMarkup({title: post.data.title, content: post.data.content}) | safe }}
+{% endif %}
+

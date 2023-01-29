@@ -4,7 +4,6 @@ layout: index
 
 {% set posts = collections.posts | reverse %}
 {% for post in posts %}
-  {% set isHome = true %}
   {% include "postTypes/" + post.data.layout + ".njk" %}
 {% else %}
   <p>no posts yet</p>

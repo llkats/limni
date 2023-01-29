@@ -1,6 +1,7 @@
 const dayjs = require('dayjs')
 
 module.exports = function(eleventyConfig) {
+  eleventyConfig.addLayoutAlias('index', 'index.njk')
   eleventyConfig.addLayoutAlias('post', 'postTypes/post.njk')
   eleventyConfig.addLayoutAlias('blog', 'postTypes/blog.njk')
 
